@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/protoschema-plugins/internal/protoschema/golden"
+	"github.com/straw-hat-team/bufbuild-plugins/internal/protoschema/golden"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,4 +1,4 @@
-module github.com/bufbuild/protoschema-plugins
+module github.com/straw-hat-team/bufbuild-plugins
 
 go 1.22
 

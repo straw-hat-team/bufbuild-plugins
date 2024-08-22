@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"github.com/bufbuild/protoplugin"
-	"github.com/bufbuild/protoschema-plugins/internal/protoschema/jsonschema"
+	"github.com/straw-hat-team/bufbuild-plugins/internal/protoschema/jsonschema"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

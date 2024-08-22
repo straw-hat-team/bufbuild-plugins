@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"github.com/bufbuild/protoplugin"
-	"github.com/bufbuild/protoschema-plugins/internal/protoschema/pubsub"
+	"github.com/straw-hat-team/bufbuild-plugins/internal/protoschema/pubsub"
 )
 
 // Handle implements protoplugin.Handler and is the main entry point for the plugin.

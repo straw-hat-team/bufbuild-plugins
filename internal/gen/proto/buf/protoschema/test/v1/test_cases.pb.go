@@ -22,7 +22,7 @@ package testv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	proto3 "github.com/bufbuild/protoschema-plugins/internal/gen/proto/bufext/cel/expr/conformance/proto3"
+	proto3 "github.com/straw-hat-team/bufbuild-plugins/internal/gen/proto/bufext/cel/expr/conformance/proto3"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

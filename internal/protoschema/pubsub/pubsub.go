@@ -15,9 +15,9 @@
 package pubsub
 
 import (
-	"github.com/bufbuild/protoschema-plugins/internal/protoschema/normalize"
 	"github.com/jhump/protoreflect/desc"
 	"github.com/jhump/protoreflect/desc/protoprint"
+	"github.com/straw-hat-team/bufbuild-plugins/internal/protoschema/normalize"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"
