@@ -1,0 +1,8 @@
+package generated;
+
+record FieldsEntry {
+    key: string,
+    value: Value,
+}
+
+

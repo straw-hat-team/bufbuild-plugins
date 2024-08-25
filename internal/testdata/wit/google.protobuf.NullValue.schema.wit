@@ -1,0 +1,5 @@
+enum NullValue {
+    NULL_VALUE,
+}
+
+

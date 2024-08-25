@@ -1,5 +1,12 @@
-{
-  "$id": "google.protobuf.Value.schema.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Value"
+package generated;
+
+record Value {
+    null_value: NullValue,
+    number_value: float64,
+    string_value: string,
+    bool_value: bool,
+    struct_value: Struct,
+    list_value: ListValue,
 }
+
+

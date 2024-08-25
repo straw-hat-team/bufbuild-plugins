@@ -1,33 +1,6 @@
-{
-  "$id": "buf.protoschema.test.v1.CustomOptions.schema.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "additionalProperties": false,
-  "patternProperties": {
-    "^(int32Field)$": {
-      "items": {
-        "exclusiveMaximum": 2147483648,
-        "minimum": -2147483648,
-        "type": "integer"
-      },
-      "type": "array"
-    },
-    "^(stringField)$": {
-      "type": "string"
-    }
-  },
-  "properties": {
-    "int32_field": {
-      "items": {
-        "exclusiveMaximum": 2147483648,
-        "minimum": -2147483648,
-        "type": "integer"
-      },
-      "type": "array"
-    },
-    "string_field": {
-      "type": "string"
-    }
-  },
-  "title": "Custom Options",
-  "type": "object"
+package generated;
+
+record CustomOptions {
+    int32_field: s32,
+    string_field: string,
 }
